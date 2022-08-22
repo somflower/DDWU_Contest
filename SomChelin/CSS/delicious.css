@@ -1,0 +1,131 @@
+#wrap {
+    width: 85%;
+    height: 100%;
+    background-color: #570328;
+}
+
+#wrap header {
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    background-color: #FFFFFF;
+    z-index: 11;
+    mask-repeat: repeat-y;
+}
+
+header .logo2 {
+    position: fixed;
+    top: 150px;
+
+}
+
+header .logo {
+    position: fixed;
+    right: 35px;
+    top: 10px;
+
+}
+
+header img {
+    width: 200px;
+    height: 50px;
+}
+
+header .logo img {
+    width: 150px;
+    height: 150px;
+}
+
+#wrap header nav {
+    width: 100%;
+    height: 100%;
+}
+
+#wrap header nav ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10%;
+}
+
+#wrap header nav ul {
+    color: #7e7e7e;
+    font-size: 13px;
+}
+
+#wrap header nav ul a {
+    font-size: 13px;
+    color: #7e7e7e;
+    width: 5px;
+    line-height: 30px;
+}
+
+#container {
+    width: 70%;
+    height: 99%;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#container .content {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #FFFFFF;
+    border: #570328;
+    border-style: double;
+    border-width: 5px;
+    position: absolute;
+}
+
+#container .content img {
+    width: 50%;
+    height: 10%;
+    position: relative;
+    left: 30%;
+    top: 8%;
+}
+
+body {
+    margin: 0%;
+    width: 100%;
+}
+
+html {
+    margin: 0%;
+    width: 100%;
+}
+
+footer {
+    width: 200px;
+    right: 0px;
+    bottom: 0px;
+    position: fixed;
+    font-size: 11px;
+    color: #7e7e7e;
+    z-index: 12;
+}
+
+footer a {
+    display: inline-block;
+    margin: 0 20px 10px 20px;
+    color: #808080;
+    font-size: 13px;
+}
+
+footer p {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 20px;
+}
+
+footer p span {
+    display: inline-block;
+    margin-left: 20px;
+
+}
