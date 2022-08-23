@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>맛집 소개 페이지</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gaegu&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap" rel="stylesheet">
+
+    <style>
+      center {
+        font-size:90px;
+        color: #802727;
+        font-family: 'Gaegu', cursive;
+      }
+      span {
+        background: #F9F7F6; border-left: 0.5em solid #570328; padding: 0.5em;
+      }
+      section > div {
+        margin:auto;
+        width: 75%;
+        text-align: center;
+        font-family: 'Gamja Flower', cursive;
+        padding: 2em 2em; 
+        background:  white; 
+        box-shadow: 0px 0px 0px 10px white; border: solid 2px rgb(240, 218, 154); 
+        border-radius: 8px;
+      }
+      div > h2 {
+          color: #802727;
+          font-style: italic;
+      }
+      section > h2 {
+        text-align: center;
+      }
+      #clock {
+          background-color: orange;
+          width: 50%;
+      }
+      #list {
+        margin:auto;
+        width: 40%;
+        color:rgb(61, 38, 38);
+        border: dashed 5px #570328;
+        border-radius:25px 50px 25px 50px;
+        font-family: 'Gaegu', cursive;
+        text-align: left;
+        background:lightyellow;
+      }
+      mark {
+        font-family: 'Gaegu', cursive;
+        background-color: #570328;
+        color:white;
+        font-size: 30px;
+      }
+      a:link { 
+        color:pink; 
+        text-decoration: none;
+    } /*아직 방문한 적 없는 글자색*/
+      a:visited { 
+        color:black; 
+        text-decoration: none;
+    } /*방문한 적이 있는 링크색*/
+      a:hover { 
+        color:red; 
+        text-decoration: none;
+    } /*마우스 링크에 올려두었을 때*/
+      a:active { 
+        color:green; 
+        text-decoration: none;
+    } /*마우스로 링크를 클릭하고 뗄 때까지*/
+
+    </style>
+
+</head>
+
+<body bgcolor ="lightyellow">
+    <header>
+    <h4 style = "font-family: 'Gamja Flower', cursive;">학교 근처 맛집을 모아보자</h4>
+    <br>
+    <br>
+    <center style="text-shadow: -3px 0 white, 0 3px white, 3px 0 white, 0 -3px white;">
+        <span><b>~동덕여대 맛집 리스트~</b></span>
+    </center>
+    <!--
+    <hr align ="center" width=40% size = "5" noshade="noshade" color="#570328" border="0"></hr>
+    -->
+    <br><br><br>
+    <br><br><br>
+    <!--
+    <div id = "clock"></div>
+        <script> 
+        function clock() {
+        var today = new Date();
+        var day = "현재 시각: " + (today.getMonth() + 1 ) + "월 " + today.getDate() + "일 ";
+        var time = today.getHours() + "시 " + today.getMinutes() + "분 " + today.getSeconds() + "초 ";
+        
+        document.getElementById("clock").innerHTML = day + time;
+        setTimeout('clock()', 1000);
+        }
+        
+        clock();
+        document.getElementById("clock").style.padding= "20px";
+        document.getElementById("clock").style.border= "2px solid coral";
+    </script>
+    -->
+  
+    <div id = "list">
+    <h1><em> &nbsp <월곡></em></h1>
+        <ul>
+            <li><a href="#jena"><h3>제나키친</h3></a></li>
+            <li><a href="#omae"><h3>오매떡</h3></a></li>
+            <li><a href="#baek"><h3>백소정</h3></a></li>
+            <li><a href="#katsu"><h3>유메노카츠, 토라카츠</h3></a></li>
+            <li><a href="#mara"><h3>조가연마라탕, 춘리마라탕</h3></a></li>
+            <li><a href="#song"><h3>송송식탁</h3></a></li>
+            <li><a href="#savor"><h3>사보르 김밥</h3></a></li>
+            <li><a href="#da"><h3>디에이피자</h3></a></li>
+
+        </ul>
+    <hr>
+    <h2><em> &nbsp <상월곡></em></h2>
+    <ul>
+        <li><a href="#mikuk"><h3>미쿡피자</h3></a></li>
+        <li><a href="#bap"><h3>밥은화</h3></a></li>
+    </ul>
+    <hr>
+    <h2><em> &nbsp <멀지만... 먹고말겠다></em></h2>
+    <ul>
+        <li><a href="#hambak"><h3>동네함박(미아사거리)</h3></a></li>
+    </ul>
+    <br>
+    </div>
+    </header>
+    <br><br><br>
+    <br><br>
+
+    <section>
+        <h2><em><mark>월곡역에서 가까워요</mark></em></h2>
+        <div id="jena">
+            <br>
+            <h2>"제나키친 (월곡) "</h2>
+            <p>
+                <h3>- 별점: ★★★★</h3>
+                <h3>- 혼잡도</h3>
+                
+                <h3>- 내부 사진</h3>
+                <img src="image/nyam.jpg" width="250" border="1">
+            </p>
+        </div>
+        <br><br>
+        <div id="omae">
+            <br>
+            <h2>"오매떡 (월곡) "</h2>
+            <p>
+                <h3>- 혼잡도</h3>
+                
+                <h3>- 내부 사진</h3>
+                <!--
+                <img src="" width="250" border="1">
+                -->
+            </p>
+        </div>
+        <br><br>
+        <div id="baek">
+            <br>
+            <h2>"백소정 (월곡) "</h2>
+            <p>
+                <h3>- 혼잡도</h3>
+                
+                <h3>- 내부 사진</h3>
+                <!--
+                <img src="" width="250" border="1">
+                -->
+            </p>
+        </div>
+        <br><br>
+        <div id="katsu">
+            <br>
+            <h2>"유메노카츠, 토라카츠 (월곡) "</h2>
+            <p>
+                <h3>- 혼잡도</h3>
+                
+                <h3>- 내부 사진</h3>
+                <!--
+                <img src="" width="250" border="1">
+                -->
+            </p>
+        </div>
+        <br><br>
+        <div id="mara">
+            <br>
+            <h2>"조가연마라탕, 춘리마라탕 (월곡) "</h2>
+            <p>
+                <h3>- 혼잡도</h3>
+                
+                <h3>- 내부 사진</h3>
+                <!--
+                <img src="" width="250" border="1">
+                -->
+            </p>
+        </div>
+        <br><br>
+        <div id="song">
+            <br>
+            <h2>"송송식탁 (월곡) "</h2>
+            <p>
+                <h3>- 혼잡도</h3>
+                
+                <h3>- 내부 사진</h3>
+                <!--
+                <img src="" width="250" border="1">
+                -->
+            </p>
+        </div>
+        <br><br>
+        <div id="savor">
+            <br>
+            <h2>"사보르김밥 (월곡) "</h2>
+            <p>
+                <h3>- 혼잡도</h3>
+                
+                <h3>- 내부 사진</h3>
+                <!--
+                <img src="" width="250" border="1">
+                -->
+            </p>
+        </div>
+        <br><br>
+        <div id="da">
+            <br>
+            <h2>"디에이피자 (월곡) "</h2>
+            <p>
+                <h3>- 혼잡도</h3>
+                
+                <h3>- 내부 사진</h3>
+                <!--
+                <img src="" width="250" border="1">
+                -->
+            </p>
+        </div>
+        <br><br>
+        <h2><em><mark>상월곡역에서 가까워요</mark></em></h2>
+        <div id="mikuk">
+            <br>
+            <h2>"미쿡피자 (상월곡) "</h2>
+            <p>
+                <h3>- 혼잡도</h3>
+                
+                <h3>- 내부 사진</h3>
+                <!--
+                <img src="" width="250" border="1">
+                -->
+            </p>
+        </div>
+        <br><br>
+        <div id="bap">
+            <br>
+            <h2>"밥은화 (상월곡) "</h2>
+            <p>
+                <h3>- 혼잡도</h3>
+                
+                <h3>- 내부 사진</h3>
+                <!--
+                <img src="" width="250" border="1">
+                -->
+            </p>
+        </div>
+        <br><br>
+        <h2><em><mark>멀지만...먹고 말겠다</mark></em></h2>
+        <div id="hambak">
+            <br>
+            <h2>"동네함박 (미아사거리) "</h2>
+            <p>
+                <h3>- 혼잡도</h3>
+                
+                <h3>- 내부 사진</h3>
+                <!--
+                <img src="" width="250" border="1">
+                -->
+            </p>
+        </div>
+        <br><br>
+
+    </section>
+
+    <footer>
+        <br>
+        <h3 style="text-align:center; font-size:50px; color: #802727;
+        font-family: 'Gaegu', cursive;">!!즐거운 식사 되세요!!</h3>
+    </footer>
+</body>
+</html>
